@@ -1,0 +1,24 @@
+.header{
+    background-color: #1c94e4;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.header-title{
+    color: white;
+}
+
+.header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.header a:hover{
+    color: orange;
+}
