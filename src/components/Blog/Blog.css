@@ -1,0 +1,21 @@
+.question-answer-container{
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.question-container{
+    margin-top: 60px;
+}
+
+.question-answer{
+    margin: 130px;
+    background-color:  #DEEEE7;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+.question-answer:hover{
+    background-color:  #b0ecd2;
+    box-shadow: 15px 15px 15px gray;
+}

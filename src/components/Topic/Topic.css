@@ -11,6 +11,7 @@
     box-shadow: 5px 5px 5px gray;
 }
 .topic:hover{
+    background-color:  #b0ecd2;
     box-shadow: 15px 15px 15px gray;
 }
 
