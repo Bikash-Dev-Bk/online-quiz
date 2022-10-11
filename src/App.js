@@ -4,6 +4,7 @@ import Main from './layouts/Main/Main';
 import Statistics from './components/Statistics/Statistics';
 import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
+import InvalidPage from './components/InvalidPage/InvalidPage';
 
 function App() {
   const router = createBrowserRouter([
@@ -30,7 +31,7 @@ function App() {
     },
     {
       path: '*',
-      element: <h2>This page is not Found! 404</h2>
+      element: <InvalidPage></InvalidPage>
     }
   ])
   return (
