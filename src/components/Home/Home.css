@@ -5,14 +5,18 @@
     padding-top: 50px;
 }
 .banner{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 700px;
     background-image: url("../../../src/images/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: brightness(70%);
 }
 .banner-title{
-    color: #ffffff;
+    font-size: 40px;
+    background-color: #DEEEE7;
+    padding: 20px;
+    border-radius: 15px;
 }

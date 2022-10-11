@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <div className='banner'>
-                <h2 className='banner-title'>This is quiz!!</h2>
+                <h2 className='banner-title'>Test your skills with the quizzes here...</h2>
             </div>
             <div className='topics'>
                 {
