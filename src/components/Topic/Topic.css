@@ -1,5 +1,5 @@
 .topic{
-    background-color:  #DEEEE7;
+    background-color:  #fbeeff;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
@@ -8,10 +8,10 @@
     align-items: center;
     margin: 50px;
     margin-top: 0;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 10px gray;
 }
 .topic:hover{
-    background-color:  #b0ecd2;
+    background-color:  #e9c2f5;
     box-shadow: 15px 15px 15px gray;
 }
 

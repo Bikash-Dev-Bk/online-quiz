@@ -10,7 +10,9 @@ const Quiz = ({quiz}) => {
     const {correctAnswer,question,id, options} = quiz;
 
     
-    const rightAnswer = () => toast(correctAnswer);
+    const rightAnswer = () => toast.success(correctAnswer);
+    const answerRight = () => toast.success('Right Answer');
+    const answerWrong = () => toast.error('Wrong Answer');
     console.log(quiz);
     return (
         <div className='quiz-container'>
@@ -21,11 +23,14 @@ const Quiz = ({quiz}) => {
             </div>
             <div className='quiz-options'>
                 {
-                    options.map(option => {
+                    options.map(option => {    
+                                        
                         return(
                             <>
-                                <input type="radio" id="html" name={id} value="HTML"/>
-                                <label for="html">{option}</label><br/>
+                                <input type="radio" id="html" name={id} 
+                                value="HTML"/>
+                                <label for="html" >{option}</label><br/>
+                                
                             </>
                         )
                     })

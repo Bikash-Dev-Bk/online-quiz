@@ -9,13 +9,13 @@
 
 .question-answer{
     margin: 130px;
-    background-color:  #DEEEE7;
+    background-color:  #fbeeff;
     padding: 30px;
     margin: 30px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px gray;
 }
 .question-answer:hover{
-    background-color:  #b0ecd2;
+    background-color:  #e9c2f5;
     box-shadow: 15px 15px 15px gray;
 }
