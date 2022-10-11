@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <nav className='header'>
             <p className='header-title'>Quiz World</p>
-            <div>
+            <div className='header-link'>
                 <Link to="/">Home</Link>
                 <Link to="/statistics">Statistics</Link>
                 <Link to="/blog">Blog</Link>

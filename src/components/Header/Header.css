@@ -24,3 +24,21 @@
 .header a:hover{
     color: orange;
 }
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+    .header-link{
+        display: flex;
+        flex-direction: column;
+    }
+}

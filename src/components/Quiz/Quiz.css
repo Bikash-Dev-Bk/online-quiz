@@ -20,3 +20,16 @@
     margin-left: 50px;
     font-size: 22px;
 }
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    .quiz-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

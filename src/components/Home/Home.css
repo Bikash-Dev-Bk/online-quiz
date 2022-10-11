@@ -20,3 +20,28 @@
     padding: 20px;
     border-radius: 15px;
 }
+
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    .topics{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+    .banner-title{
+        font-size: 14px;
+        padding: 10px;
+    }
+}

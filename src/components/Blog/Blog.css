@@ -19,3 +19,17 @@
     background-color:  #e9c2f5;
     box-shadow: 15px 15px 15px gray;
 }
+
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    .question-answer-container{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}

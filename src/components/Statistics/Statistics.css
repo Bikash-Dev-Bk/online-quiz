@@ -5,3 +5,12 @@
 .graph-title{
     text-align: center;
 }
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    
+}

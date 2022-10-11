@@ -30,3 +30,30 @@
 .btn-start:hover{
     background-color: rgb(6, 6, 252);
 }
+
+
+/* ---------------------------------
+            Media Queries
+------------------------------------*/
+
+/*------Mobile devices--------*/
+
+@media only screen and (max-width: 688px) {
+    .topic{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10;
+        padding-right: 10;
+        margin: 0;
+        margin-top: 10;
+        margin-bottom: 40px;
+    }
+    .btn-start{
+        padding: 10px 30px;
+    }
+    .course-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -9,7 +9,7 @@ const Topic = ({topic}) => {
             <div className='course-image'>
                 <img src={logo} alt="" />
             </div>
-            <div>
+            <div className='course-info'>
                 <h3>Course Name: {name}</h3>
                 <p>Total Question: {total}</p>
                 <div >

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { LineChart, Line, Tooltip, XAxis, YAxis,  Legend } from 'recharts';
+import { LineChart, Line, Tooltip, XAxis, YAxis, Legend ,ResponsiveContainer } from 'recharts';
 import './Statistics.css';
 
 const Statistics = () => {
