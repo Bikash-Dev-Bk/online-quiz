@@ -45,3 +45,20 @@
         padding: 10px;
     }
 }
+
+/*------Tablet devices--------*/
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .topics{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 80px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .banner-title{
+        font-size: 24px;
+        padding: 20px;
+    }
+}

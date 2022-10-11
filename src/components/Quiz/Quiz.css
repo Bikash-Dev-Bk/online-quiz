@@ -33,3 +33,12 @@
         margin-right: 20px;
     }
 }
+
+/*------Tablet devices--------*/
+
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .quiz-container{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}

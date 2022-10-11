@@ -8,13 +8,16 @@ const Statistics = () => {
     return (
         <div>
             <h2 className='graph-title'>Chart of Total Question of quizzes</h2>
-            <LineChart  className='graph' width={500} height={400} data={data}>
-                <Line type="monotone" dataKey='total' stroke="#82ca9d" />
-                <XAxis dataKey='name' />
-                <Tooltip/>
-                <YAxis />
-                <Legend />
-            </LineChart>
+            <ResponsiveContainer width="90%" height={500}>
+                <LineChart  className='graph' width={500} height={400} data={data}>
+                    <Line type="monotone" dataKey='total' stroke="#82ca9d" />
+                    <XAxis dataKey='name' />
+                    <Tooltip/>
+                    <YAxis />
+                    <Legend />
+                </LineChart>
+
+            </ResponsiveContainer>
         </div>
     );
 };
