@@ -1,10 +1,25 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import Topic from '../Topic/Topic';
+import './Home.css';
 
 const Home = () => {
+    const topics = useLoaderData().data;
     return (
         <div>
-            <h3>this is home</h3>
+            <div className='banner'>
+                <h2 className='banner-title'>This is quiz!!</h2>
+            </div>
+            <div className='topics'>
+                {
+                    topics.map(topic => <Topic
+                    key={topic.id}
+                    topic={topic}
+                    ></Topic>)
+                }
+            </div>
         </div>
+        
     );
 };
 

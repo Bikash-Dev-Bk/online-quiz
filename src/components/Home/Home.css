@@ -1,0 +1,18 @@
+.topics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 180px;
+    padding-top: 50px;
+}
+.banner{
+    text-align: center;
+    height: 700px;
+    background-image: url("../../../src/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+.banner-title{
+    color: #ffffff;
+}
