@@ -11,6 +11,12 @@
     background-color:  #b0ecd2;
     box-shadow: 15px 15px 15px gray;
 }
+.quiz-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .quiz-options{
     margin-left: 50px;
+    font-size: 22px;
 }
