@@ -26,7 +26,7 @@ const Quiz = ({quiz,index}) => {
     return (
         <div className='quiz-container'>
             <div className='quiz-question'>
-                <h2>Question-{index+1}: {question}</h2>                         
+                <h2>Question-{index+1}: {question.slice(question.indexOf('<p>')+3,question.indexOf('</p>'))}</h2>                         
                 <p onClick={rightAnswer}><FontAwesomeIcon  icon={faEye}></FontAwesomeIcon></p>
                 <Toaster />
             </div>
