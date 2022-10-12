@@ -9,7 +9,7 @@ const Quizzes = () => {
     
     return (
         <div className='quizzes'>
-            <h1 className='quiz-header'>Quiz for {quizzes.name}</h1>
+            <h1 className='quiz-header py-5'>Quiz for {quizzes.name}</h1>
             <div>
               {
                 questions.map(quiz => <Quiz

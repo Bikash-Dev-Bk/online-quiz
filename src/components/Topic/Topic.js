@@ -10,7 +10,7 @@ const Topic = ({topic}) => {
                 <img src={logo} alt="" />
             </div>
             <div className='course-info'>
-                <h3>Course Name: {name}</h3>
+                <h4>Course Name: {name}</h4>
                 <p>Total Question: {total}</p>
                 <div >
                     <Link to={`/quiz/${id}`}>

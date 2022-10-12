@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='question-answer-container'>
+        <div className='question-answer-container pt-5'>
             <h1>Here is some Questions and Answer for you.</h1>
             <div className='question-container'>
                 <div className='question-answer'>
