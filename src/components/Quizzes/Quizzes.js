@@ -12,9 +12,10 @@ const Quizzes = () => {
             <h1 className='quiz-header py-5'>Quiz for {quizzes.name}</h1>
             <div>
               {
-                questions.map(quiz => <Quiz
+                questions.map((quiz, i) => <Quiz
                 key={quiz.id}
                 quiz={quiz}
+                index={i}
                 ></Quiz>)
               }  
             </div>
